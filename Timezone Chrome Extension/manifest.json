@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"Timezone Capture",
+    "version":"2.0.1",
+    "description":"This is an CRM extension that displays your current timezone",
+    "author":"olivier elonga",
+    "icons":{
+        "128":"clock.png"
+    },
+    "browser_action":{
+        "default_icon":"clock.png",
+        "default_title": "Timezone Capture",
+        "default_popup":"popup.html"
+    },
+
+    "permissions":["activeTab"],
+    "background":{
+        "scripts":["main.js"]
+    }
+}
